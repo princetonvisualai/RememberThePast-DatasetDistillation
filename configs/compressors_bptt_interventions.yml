@@ -1,0 +1,55 @@
+training:
+  n_iters: 500000
+  num_exp: 1
+  eval_every: 200
+  print_every: 20
+  train_framework: ''
+  lr_scheduler: 0
+
+evaluation:
+  num_eval: 10
+  train_epoch: 300
+
+dataset:
+  name: ''
+  data_path: 'data'
+
+compressor:
+  name: 'imgs_embedding'
+  ipc: 50
+  downsample_scale: 1
+
+intervention:
+  name: 'pair_match'
+  strategy: ''
+  train_intervention: ''
+  test_interveition: ''
+
+backbone:
+  name: 'ConvNet'
+  train_epoch: 300
+
+bptt:
+  inner_steps: 20
+  generalization_batches: 10
+  
+compressor_optim:
+  optimizer: "SGD"
+  lr: 0.1
+  beta1: 0.9
+  weight_decay: 0
+  momentum: 0.5
+
+backbone_optim:
+  optimizer: "SGD"
+  lr: 0.01
+  momentum: 0.9
+  weight_decay: 0
+  temperature: 0.1
+
+bptt_optim:
+  optimizer: "SGD"
+  lr: 0.01
+  momentum: 0.9
+  weight_decay: 0
+  temperature: 0

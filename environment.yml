@@ -1,0 +1,16 @@
+name: RememberThePast
+channels:
+  - anaconda
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.3.1=h2bc3f7f_2
+  - pytorch=1.12.1=py3.10_cuda11.3_cudnn8.3.2_0
+  - pytorch-mutex=1.0=cuda
+  - yaml=0.2.5=h7b6447c_0
+  - pip:
+    - pyyaml==6.0
+    - torch==1.12.1
+    - torchaudio==0.12.1
+    - torchvision==0.13.1

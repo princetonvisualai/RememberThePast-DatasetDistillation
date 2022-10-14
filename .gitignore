@@ -1,0 +1,17 @@
+data/*
+result/*
+*.swp
+logs/*
+results/*
+slurm_out/*
+*.out
+*nfs*
+wandb/*
+saves/*
+compressor_vis/*
+*.pth
+*.pt
+*.log
+*.pdf
+*.png
+*.acc
