@@ -29,7 +29,7 @@ bash run_scripts/bptt_efficient_compressor_minibatch.sh debug ConvNet compressor
 Back-propagation through time (BPTT) with memory addressing
 
 ```
-bash run_scripts/bptt_efficient_compressor_basis_minibatch.sh debug ConvNet compressors_bptt_test.yml 1 SGD 150 SGD 0.9 CIFAR10 10 32 16 2 0 1 1 l2 1e-4 none 0
+bash run_scripts/bptt_efficient_compressor_basis_minibatch.sh debug ConvNet compressors_bptt_interventions.yml 1 SGD 150 SGD 0.9 CIFAR10 10 32 16 2 0 1 1 l2 1e-4 none 0
 ```
 
 To add data augmentations, change none to flip_rotate
