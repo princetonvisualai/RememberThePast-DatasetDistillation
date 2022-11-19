@@ -38,10 +38,10 @@ The hyperparameters are tuned with validation_ratio=0.1. When set as 0, the trai
 
 ## Reference
 ```bib
-@article{deng2022remember,
+@inproceedings{deng2022remember,
   title={Remember the Past: Distilling Datasets into Addressable Memories for Neural Networks},
-  author={Deng, Zhiwei and Russakovsky, Olga},
-  journal={arXiv preprint arXiv:2206.02916},
+  author={Zhiwei Deng and Olga Russakovsky},
+  booktitle={Neural Information Processing Systems (NeurIPS)},
   year={2022}
 }
 ```
